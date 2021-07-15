@@ -1,4 +1,5 @@
 const fs = require('fs');
+const inq = require('inquirer');
 const generatePage = require('./src/page-template.js')
 const profileDataArgs = process.argv.slice(2, process.argv.length);
 const [name, github] = profileDataArgs
