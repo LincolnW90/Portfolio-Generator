@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create Styled portfolio from inputs",
   "main": "app.js",
   "directories": {
     "lib": "lib"
@@ -11,9 +11,18 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "lincoln-weiss",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^7.3.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LincolnW90/Portfolio-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LincolnW90/Portfolio-Generator/issues"
+  },
+  "homepage": "https://github.com/LincolnW90/Portfolio-Generator#readme"
 }
