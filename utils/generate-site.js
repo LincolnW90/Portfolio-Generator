@@ -20,6 +20,13 @@ const writeFile = fileContent => {
 
 const copyFile = fileCopy => {
     return new Promise((resolve, reject) => {
-        fs.copyFile()
+        fs.copyFileSync('./dist/index.html', fileCopy =>{
+            resolve({
+                ok: true,
+                message: 'File Copied'
+            })
+        })
     })
-}
+};
+
+module.exports = {writeFile, copyFile};
